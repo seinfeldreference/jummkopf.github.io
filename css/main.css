@@ -1,0 +1,78 @@
+body {
+	background-image: url(../img/wilds.png);
+	font-family: 'Roboto';
+	text-align: center;
+	line-height: 1.75em;
+	font-size: 1.15em;
+	color: white;
+	margin: 0 auto;
+}
+
+#creator {
+	margin: auto;
+    width: 75%;
+	text-align: center;
+	border: 2px solid white;
+	padding: 25px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	background-color: #111;
+	opacity: 0.5;
+	transition-duration: 0.25s;
+	border-radius: 8px;
+}
+
+#creator:hover {
+	opacity: 0.8;
+}
+
+#button {
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+} 
+
+#generator {
+	color: white;
+	border: 2px solid white;
+	padding: 15px 25px;
+	background-color: #111;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	opacity: 0.5;
+	transition-duration: 0.25s;
+	border-radius: 8px;
+}
+
+#generator:hover {
+	opacity: 0.8;
+}
+
+#generator:active {
+	transform: translateY(4px);
+	background-color: white;
+}
+
+#names {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#alignment {
+	opacity: 0.5;
+	font-style: italic;
+	font-size: 0.75em;
+}
+
+#topper {
+	line-height: 1.6em;
+	padding: 15px;
+}
+
+#flaws {
+	color: red;
+}
